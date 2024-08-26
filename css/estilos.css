@@ -1,0 +1,144 @@
+body {
+    font-family: "Work Sans", sans-serif;
+    background-image: url('../assets/Background.jpg');
+    background-size: cover;
+}
+
+header {
+    padding: 0 15em;
+}
+
+.container{
+    padding: 0 15em;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 0px 16px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #FFCCDC;
+}
+
+.navbar-nav .nav-link.active {
+    color: #FF80A9;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+/* Aca termina el nav */
+
+.section-title {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 200px; */
+    justify-content: center;
+}
+
+.section-title>.col-md-12>h1 {
+    letter-spacing: 3px;
+    font-size: 6em;
+    color: #FFFFFF;
+    margin: 0;
+    /* margin-left: 1.3em !important; */
+    font-weight: 700 !important;
+}
+
+@media (max-width: 992px) {
+    header {
+        padding: 0 1em;
+    }
+    
+    .container{
+        padding: 3em 2em!important; 
+    }
+
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        justify-content: space-between !important;
+    }
+
+    .section-title>.col-md-12>h1 {
+        font-size: 2em;
+        margin-left: 0 !important;
+    }
+    .esfera {
+        margin: 37px !important;
+        width: 69% !important;
+    }
+}
+
+.title-pink {
+    color: #FF80A9 !important;
+}
+
+.esfera {
+    mix-blend-mode: soft-light;
+    position: absolute;
+    right: 5%;
+    z-index: -1;
+    margin: 100px;
+    width :25%;
+}
+
+/* Aca termina el hero */
+.container {
+    max-width: 2263px;
+    padding: 8em 15em;
+}
+.line {
+    display: inline-block;
+    border-bottom: 2px solid #FF80A9;
+    margin: auto;
+    width: auto;
+    padding: 0;
+}
+.subtitulo {
+    font-size: 24px;
+    font-weight: 600;
+}
+.card {
+    color: #FFFFFF;
+    background-color: #ffffff00;
+}
+.fondo-morado-oscuro {
+    background-color: #16006D;
+}
+.fondo-pink{
+    background-color: #FF80A9 !important;
+}
+.fondo-lavanda{
+    background-color: #8E59FF !important;
+}
+.fondo-violet{
+    background-color: #8EA1FF !important;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    background-color: #16006ddc;
+    opacity: 0.8;
+}
+.section-nosotros {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.section-nosotros h1 {
+    letter-spacing: 3px;
+    font-size: 6em;
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: 700 !important;
+}
